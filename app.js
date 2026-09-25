@@ -13,7 +13,8 @@ function render(){
  let items=state.videos.filter(v=>(v.title+" "+(v.category||"")).toLowerCase().includes(state.query.toLowerCase()));
  if(state.category!=="Todos")items=items.filter(v=>(v.category||"").toLowerCase()===state.category.toLowerCase());
  if(sort.value==="title")items.sort((a,b)=>a.title.localeCompare(b.title));
- grid.innerHTML=items.map(v=>'<article class="card"><div class="thumb" style="background-image:url(\''+(v.thumb||"assets/youtube-placeholder.jpg")+'\')"><span class="badge">YouTube</span>'+(v.duration?'<span class="duration">'+v.duration+"</span>":"")+'</div><div class="card-body"><h3>'+v.title+'</h3><div class="meta">Voz da Cura Network · '+(v.category||"Pregação")+'</div><a href="'+v.url+'" target="_blank" rel="noopener">▶ Assistir no YouTube</a></div></article>').join("");
+ if(sort.value==="recent")items.sort((a,b)=>(b.upload_date||"").localeCompare(a.upload_date||""));
+ grid.innerHTML=items.map(v=>'<article class="card"><div class="thumb" style="background-image:url(\''+(v.thumbnail||v.thumb||"assets/youtube-placeholder.jpg")+'\')"><span class="badge">YouTube</span>'+(v.duration?'<span class="duration">'+v.duration+"</span>":"")+'</div><div class="card-body"><h3>'+v.title+'</h3><div class="meta">Voz da Cura Network · '+(v.category||"Pregação")+'</div><a href="'+v.url+'" target="_blank" rel="noopener">▶ Assistir no YouTube</a></div></article>').join("");
  status.textContent=items.length+" vídeo(s) no catálogo";
 }
 function categories(){
