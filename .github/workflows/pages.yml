@@ -1,4 +1,4 @@
-name: Deploy Vitrine
+﻿name: Deploy Vitrine
 
 on:
   push:
@@ -27,7 +27,7 @@ jobs:
       - name: Prepare hero image
         run: |
           mkdir -p assets
-          curl -L --fail --retry 3 "https://i.ytimg.com/vi/6RpNbe81TjU/maxresdefault.jpg" -o assets/vitrine-header.jpg
+          curl -L --fail --retry 3 "https://i.ytimg.com/vi/6RpNbe81TjU/hqdefault.jpg" -o assets/vitrine-header.jpg
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
@@ -40,3 +40,4 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+
