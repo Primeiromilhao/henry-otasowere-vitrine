@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07121f">
+<title>Vitrine de Vídeos — Henry Otasowere</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+<div class="hero-copy">
+<span class="eyebrow">PROFETA</span>
+<h1>Henry Otasowere</h1>
+<p class="channel">Voz da Cura Network</p>
+<p class="tagline">Mensagens organizadas por plataforma e por tema.</p>
+<button id="heroPlay" class="primary">▶ Ver YouTube</button>
+</div>
+<div class="hero-photo" aria-label="Foto do Profeta Henry Otasowere"></div>
+</header>
+<nav class="platforms" aria-label="Plataformas">
+<button class="platform active" data-platform="youtube">▶ YouTube <b id="count-youtube">—</b></button>
+<button class="platform" data-platform="facebook">f Facebook <b>em breve</b></button>
+<button class="platform" data-platform="tiktok">♪ TikTok <b>em breve</b></button>
+</nav>
+<main>
+<section class="toolbar">
+<input id="search" type="search" placeholder="Pesquisar vídeos..." autocomplete="off">
+<select id="sort"><option value="recent">Mais recentes</option><option value="title">Título</option></select>
+</section>
+<section class="content-head">
+<div><span class="eyebrow">YOUTUBE</span><h2>Vídeos de Henry Otasowere</h2></div>
+<span id="status">A preparar catálogo…</span>
+</section>
+<section id="categories" class="chips"></section>
+<section id="grid" class="grid" aria-live="polite"></section>
+</main>
+<footer>Voz da Cura Network · Vitrine audiovisual · YouTube ativo agora · Facebook e TikTok preparados</footer>
+<script src="app.js"></script>
+</body>
+</html>
