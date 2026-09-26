@@ -5,7 +5,7 @@
     "Vai dar tudo certo.",
     "Relaxa, já deu tudo certo.",
     "Deus está trabalhando em você.",
-    "Que horação é a minha hora.",
+    "Que hora é agora?\nÉ a minha hora.",
     "Chuva de bênçãos na sua vida.",
     "Se Deus é por nós, quem será contra nós?",
     "Se você está cansado e sobrecarregado, venha até Jesus."
