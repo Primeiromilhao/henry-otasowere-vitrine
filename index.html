@@ -35,6 +35,15 @@
 <section id="grid" class="grid" aria-live="polite"></section>
 </main>
 <footer>Voz da Cura Network · Vitrine audiovisual · YouTube ativo · Facebook integrado · Reparação automática ativa</footer>
+<div id="welcomeModal" class="welcome-modal" hidden>
+<div class="welcome-card" role="dialog" aria-modal="true" aria-labelledby="welcomeTitle">
+<button id="closeWelcome" class="welcome-close" aria-label="Fechar">×</button>
+<div class="welcome-kicker">VOZ DA CURA NETWORK</div>
+<h2 id="welcomeTitle">Uma palavra para você</h2>
+<p id="welcomePhrase"></p>
+<div class="welcome-author">— Profeta Henry Otasowere</div>
+</div>
+</div>
 <div id="playerModal" class="modal" hidden>
 <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="playerTitle">
 <button id="closePlayer" class="close" aria-label="Fechar">×</button>
@@ -46,5 +55,6 @@
 </div>
 <script src="app.js"></script>
 <script src="self-heal.js"></script>
+<script src="welcome.js"></script>
 </body>
 </html>
