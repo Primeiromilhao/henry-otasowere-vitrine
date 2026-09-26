@@ -24,10 +24,13 @@ function openVideo(v){
  currentVideo=v;retries=0;modal.hidden=false;
  document.querySelector("#playerTitle").textContent=v.title||"Reprodução";
  const url=v.url||("https://www.youtube.com/watch?v="+v.id);
- externalVideo.href=url;setRepair("A verificar a fonte e a ligação…");
+ externalVideo.href=url;
+ setRepair("A carregar o vídeo…","warn");
  if(v.platform==="youtube"||v.id){
-   playerWrap.innerHTML='<div id="ytPlayer"></div>';
-   loadYouTube().then(()=>createYT(v)).catch(()=>fallback("Não foi possível carregar o reprodutor. A abrir a fonte original."));
+   const id=encodeURIComponent(v.id);
+   playerWrap.innerHTML='<iframe id="ytPlayerFrame" title="Vídeo YouTube" src="https://www.youtube.com/embed/'+id+'?playsinline=1&rel=0&enablejsapi=1&origin='+encodeURIComponent(location.origin)+'" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+   // O iframe direto já pode reproduzir mesmo que a API do YouTube demore ou falhe.
+   loadYouTube().then(()=>createYT(v)).catch(()=>setRepair("Vídeo carregado. O modo de reprodução direta está ativo.","ok"));
  }else fallback("Esta fonte será aberta diretamente na plataforma.");
 }
 function fallback(msg){
@@ -48,9 +51,15 @@ function createYT(v){
  const n=classifyNetwork();
  if(n==="offline"){setRepair("Sem internet. Aguarde a ligação e tente novamente.","warn");return}
  if(n==="slow")setRepair("Ligação lenta detectada. O sistema vai priorizar uma reprodução leve.","warn");
- ytPlayer=new YT.Player("ytPlayer",{width:"100%",height:"100%",videoId:v.id,
-  playerVars:{playsinline:1,rel:0,enablejsapi:1,origin:location.origin},
-  events:{onReady:onYTReady,onStateChange:onYTState,onError:onYTError,onAutoplayBlocked:()=>setRepair("O navegador bloqueou o início automático. Toque em Reproduzir no próprio player.","warn")}}); 
+ try{
+  ytPlayer=new YT.Player("ytPlayerFrame",{
+   events:{onReady:onYTReady,onStateChange:onYTState,onError:onYTError,
+   onAutoplayBlocked:()=>setRepair("Toque em Reproduzir no próprio vídeo.","warn")}
+  });
+ }catch(e){
+  ytPlayer=null;
+  setRepair("Vídeo carregado. Reprodução direta ativa.","ok");
+ }
 }
 function onYTReady(e){
  setRepair("Fonte disponível. Reprodução protegida contra falhas.","ok");
