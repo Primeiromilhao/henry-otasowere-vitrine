@@ -1,0 +1,10 @@
+{
+  "name":"Voz da Cura Network — Henry Otasowere",
+  "short_name":"Voz da Cura",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#07121f",
+  "theme_color":"#07121f",
+  "description":"Vitrine audiovisual com diagnóstico e recuperação automática.",
+  "icons":[]
+}

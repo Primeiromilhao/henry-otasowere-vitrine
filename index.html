@@ -4,19 +4,24 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#07121f">
+<meta name="description" content="Vitrine audiovisual do Profeta Henry Otasowere — Voz da Cura Network.">
+<link rel="manifest" href="manifest.webmanifest">
 <title>Vitrine de Vídeos — Henry Otasowere</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="hero" aria-label="Voz da Cura Network — Profeta Henry Otasowere">
-<div class="hero-photo" aria-label="Banner do Profeta Henry Otasowere"></div>
-<div class="hero-overlay"><button id="heroPlay" class="primary">▶ Ver YouTube</button></div>
+  <div class="hero-photo" aria-label="Banner do Profeta Henry Otasowere"></div>
 </header>
 <nav class="platforms" aria-label="Plataformas">
-<button class="platform active" data-platform="youtube">▶ YouTube <b id="count-youtube">—</b></button>
-<button class="platform" data-platform="facebook">f Facebook <b>em breve</b></button>
-<button class="platform" data-platform="tiktok">♪ TikTok <b>em breve</b></button>
+  <button class="platform active" data-platform="youtube">▶ YouTube <b id="count-youtube">—</b></button>
+  <a class="platform" href="https://www.facebook.com/mvozdacura/" target="_blank" rel="noopener noreferrer">f Facebook <b>abrir</b></a>
+  <button class="platform" data-platform="tiktok">♪ TikTok <b>preparado</b></button>
+  <button id="healthButton" class="platform health">🛠 Diagnóstico automático</button>
 </nav>
+<section id="healthPanel" class="health-panel" hidden>
+  <strong>Assistente de reprodução</strong><span id="healthText">A verificar ligação e serviços…</span>
+</section>
 <main>
 <section class="toolbar">
 <input id="search" type="search" placeholder="Pesquisar vídeos..." autocomplete="off">
@@ -29,7 +34,17 @@
 <section id="categories" class="chips"></section>
 <section id="grid" class="grid" aria-live="polite"></section>
 </main>
-<footer>Voz da Cura Network · Vitrine audiovisual · YouTube ativo agora · Facebook e TikTok preparados</footer>
+<footer>Voz da Cura Network · Vitrine audiovisual · YouTube ativo · Facebook integrado · Reparação automática ativa</footer>
+<div id="playerModal" class="modal" hidden>
+<div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="playerTitle">
+<button id="closePlayer" class="close" aria-label="Fechar">×</button>
+<h2 id="playerTitle">Reprodução</h2>
+<div id="playerWrap" class="player-wrap"></div>
+<div id="repairBox" class="repair-box"></div>
+<div class="player-actions"><a id="externalVideo" target="_blank" rel="noopener noreferrer">Abrir fonte original</a><button id="retryVideo">Tentar corrigir</button></div>
+</div>
+</div>
 <script src="app.js"></script>
+<script src="self-heal.js"></script>
 </body>
 </html>
