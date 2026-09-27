@@ -1,27 +1,19 @@
 ﻿(function(){
 const modal=document.querySelector("#playerModal"),playerWrap=document.querySelector("#playerWrap");
 let currentVideo=null,attempt=0,loadTimer=null;
-function cleanText(s){return String(s??"").replaceAll("VÃ­deos","V\u00eddeos").replaceAll("vÃ­deos","v\u00eddeos").replaceAll("TÃ­tulo","T\u00edtulo").replaceAll("catÃ¡logo","cat\u00e1logo").replaceAll("publicitÃ¡rio","publicit\u00e1rio").replaceAll("integraÃ§Ã£o","integra\u00e7\u00e3o").replaceAll("aplicaÃ§Ã£o","aplica\u00e7\u00e3o").replaceAll("�","");}
-function repairPage(){
- document.querySelectorAll("body *").forEach(el=>{if(el.children.length===0&&el.tagName!=="SCRIPT"&&el.tagName!=="STYLE"){const t=el.textContent,n=cleanText(t);if(n!==t)el.textContent=n;}});
-}
-function closePlayer(){clearTimeout(loadTimer);modal.hidden=true;playerWrap.innerHTML="";document.body.classList.remove("player-open");currentVideo=null;attempt=0}
-function source(id,host){return "https://"+host+"/embed/"+encodeURIComponent(id)+"?playsinline=1&rel=0&controls=1&modestbranding=1"}
-function showPlayer(v,host){
- const id=v?.id;if(!id)return;
- const poster="https://i.ytimg.com/vi/"+encodeURIComponent(id)+"/hqdefault.jpg";
- playerWrap.innerHTML='<div class="player-loading" id="playerLoading"><img src="'+poster+'" alt="" loading="eager"><div class="player-loading-text">A carregar o v\u00eddeo...</div></div><iframe id="ytPlayerFrame" title="V\u00eddeo" loading="eager" src="'+source(id,host)+'" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
- const frame=document.querySelector("#ytPlayerFrame"),loading=document.querySelector("#playerLoading");
- frame.addEventListener("load",()=>{clearTimeout(loadTimer);loading?.remove();frame.style.visibility="visible"}, {once:true});
- loadTimer=setTimeout(()=>{if(frame&&frame.contentWindow){if(attempt<2){attempt++;showPlayer(v,attempt===1?"www.youtube.com":"www.youtube-nocookie.com")}else{loading?.remove();frame.style.visibility="visible";const m=document.createElement("div");m.className="player-error";m.textContent="Este v\u00eddeo n\u00e3o respondeu. O sistema tentou recuperar a reprodu\u00e7\u00e3o automaticamente.";playerWrap.appendChild(m)}}},9000);
-}
-function openVideo(v){if(!v)return;currentVideo=v;attempt=0;modal.hidden=false;document.body.classList.add("player-open");showPlayer(v,"www.youtube-nocookie.com")}
+function cleanText(s){return String(s??"").replaceAll("V��deos","V\u00eddeos").replaceAll("v��deos","v\u00eddeos").replaceAll("T��tulo","T\u00edtulo").replaceAll("catǭlogo","cat\u00e1logo").replaceAll("publicitǭrio","publicit\u00e1rio").replaceAll("integra��ǜo","integra\u00e7\u00e3o").replaceAll("aplica��ǜo","aplica\u00e7\u00e3o").replaceAll("?","");}
+function repairPage(){document.querySelectorAll("body *").forEach(el=>{if(el.children.length===0&&el.tagName!=="SCRIPT"&&el.tagName!=="STYLE"){const t=el.textContent,n=cleanText(t);if(n!==t)el.textContent=n;}});}
+function closePlayer(){clearTimeout(loadTimer);modal.hidden=true;playerWrap.innerHTML="";document.body.classList.remove("player-open");currentVideo=null;attempt=0;}
+function getTikTokId(v){const u=String(v?.url||"");const m=u.match(//video/(d+)/);if(m)return m[1];const m2=String(v?.id||"").match(/(d{15,25})/);return m2?m2[1]:null;}
+function showLoading(){playerWrap.innerHTML='<div class="player-loading" id="playerLoading"><div class="player-loading-text">A carregar o vídeo...</div></div>';}
+function showError(text){document.querySelector("#playerLoading")?.remove();const m=document.createElement("div");m.className="player-error";m.textContent=text;playerWrap.appendChild(m);}
+function openYouTube(v){const id=String(v.id);const poster="https://i.ytimg.com/vi/"+encodeURIComponent(id)+"/hqdefault.jpg";playerWrap.innerHTML='<div class="player-loading" id="playerLoading"><img src="'+poster+'" alt="" loading="eager"><div class="player-loading-text">A carregar o vídeo...</div></div><iframe class="player-frame youtube-frame" id="mediaFrame" title="Vídeo YouTube" loading="eager" src="https://www.youtube-nocookie.com/embed/'+encodeURIComponent(id)+'?playsinline=1&rel=0&controls=1&modestbranding=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';watchFrame(v,"youtube");}
+function openFacebook(v){const href=String(v.url||"");if(!href){showError("Este vídeo do Facebook não tem uma ligação válida.");return;}const embed="https://www.facebook.com/plugins/video.php?href="+encodeURIComponent(href)+"&show_text=false&width=560&height=315&allowfullscreen=true";showLoading();playerWrap.innerHTML+='<iframe class="player-frame facebook-frame" id="mediaFrame" title="Vídeo Facebook" loading="eager" src="'+embed+'" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>';watchFrame(v,"facebook");}
+function openTikTok(v){const id=getTikTokId(v);if(!id){showError("Este vídeo do TikTok não tem um ID válido.");return;}const src="https://www.tiktok.com/player/v1/"+id+"?controls=1&progress_bar=1&play_button=1&volume_control=1&fullscreen_button=1&timestamp=1&music_info=1&description=1&rel=0";showLoading();playerWrap.innerHTML+='<iframe class="player-frame tiktok-frame" id="mediaFrame" title="Vídeo TikTok" loading="eager" src="'+src+'" allow="fullscreen; autoplay; encrypted-media" allowfullscreen></iframe>';watchFrame(v,"tiktok");}
+function watchFrame(v,kind){const frame=document.querySelector("#mediaFrame"),loading=document.querySelector("#playerLoading");if(!frame)return;frame.addEventListener("load",()=>{clearTimeout(loadTimer);loading?.remove();frame.style.visibility="visible";attempt=0},{once:true});clearTimeout(loadTimer);loadTimer=setTimeout(()=>{if(attempt<2){attempt++;if(kind==="youtube")openYouTube(v);else if(kind==="facebook")openFacebook(v);else openTikTok(v);}else{loading?.remove();frame.style.visibility="visible";showError("O vídeo não respondeu. O sistema tentou recuperar a reprodução automaticamente.");}},10000);}
+function openVideo(v){if(!v)return;currentVideo=v;attempt=0;modal.hidden=false;document.body.classList.add("player-open");const p=String(v.platform||"youtube").toLowerCase();if(p==="facebook")openFacebook(v);else if(p==="tiktok")openTikTok(v);else openYouTube(v);}
 window.openVideo=openVideo;
-document.querySelector("#closePlayer")?.addEventListener("click",closePlayer);
-modal?.addEventListener("click",e=>{if(e.target===modal)closePlayer()});
-document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!modal.hidden)closePlayer()});
-const observer=new MutationObserver(()=>repairPage());
-observer.observe(document.body,{subtree:true,childList:true,characterData:true});
-repairPage();
+document.querySelector("#closePlayer")?.addEventListener("click",closePlayer);modal?.addEventListener("click",e=>{if(e.target===modal)closePlayer()});document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!modal.hidden)closePlayer()});
+const observer=new MutationObserver(()=>repairPage());observer.observe(document.body,{subtree:true,childList:true,characterData:true});repairPage();
 if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
 })();
