@@ -13,5 +13,5 @@ async function install(){
  alert("Para instalar, abra o menu do navegador e escolha “Instalar aplicação” ou “Adicionar ao ecrã principal”.");
 }
 document.addEventListener("click",e=>{if(e.target.closest("#installApp"))install();});
-window.addEventListener("load",()=>{if(!isStandalone()&&(deferredPrompt||isIOS()))setReady();});
+window.addEventListener("load",()=>{if(!isStandalone())setReady();});
 })();
