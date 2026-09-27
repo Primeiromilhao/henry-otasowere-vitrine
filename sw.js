@@ -12,3 +12,4 @@ self.addEventListener("fetch",e=>{
  e.respondWith(fetch(e.request).then(r=>r).catch(()=>caches.match(e.request).then(r=>r||caches.match("./index.html"))));
 });
 self.addEventListener("message",e=>{if(e.data==="SKIP_WAITING")self.skipWaiting()});
+
