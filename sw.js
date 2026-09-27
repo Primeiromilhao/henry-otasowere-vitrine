@@ -1,5 +1,5 @@
-﻿const CACHE="voz-cura-v13";
-const CORE=["./","./index.html","./style.css","./app.js","./self-heal.js","./manifest.webmanifest","./videos.json","./videos-facebook.json","./videos-tiktok.json","./assets/1000254338.jpg","./assets/1000254338-enhanced.png"];
+const CACHE="voz-cura-v15";
+const CORE=["./","./index.html","./style.css","./app.js","./self-heal.js","./manifest.webmanifest","./videos.json","./videos-facebook.json","./videos-tiktok.json","./assets/1000254338.jpg","./assets/1000254338-enhanced.png","./manifest.webmanifest","./install.js","./assets/icons/icon-192.png","./assets/icons/icon-512.png"];
 self.addEventListener("install",e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
 self.addEventListener("activate",e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener("fetch",e=>{
