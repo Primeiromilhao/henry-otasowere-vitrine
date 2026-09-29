@@ -1,4 +1,8 @@
-﻿{
-  "initialized": false,
-  "ids": {}
+{
+  "initialized": true,
+  "ids": {
+    "youtube-vozdacura": [
+      "UCamDR5bQnSDBo5ylGvf3VHQ"
+    ]
+  }
 }
