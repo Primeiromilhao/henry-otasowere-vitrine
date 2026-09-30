@@ -1,472 +1,1172 @@
-﻿[
-    {
-        "id":  "tiktok-7660389179024608545",
-        "title":  "Vídeo TikTok #1",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@7629299536620487702/video/7660389179024608545",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "TikTok",
-        "channel_url":  "https://www.tiktok.com/@7629299536620487702"
-    },
-    {
-        "id":  "tiktok-7662644518264622369",
-        "title":  "Vídeo TikTok #2",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@7629299536620487702/video/7662644518264622369",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "TikTok",
-        "channel_url":  "https://www.tiktok.com/@7629299536620487702"
-    },
-    {
-        "id":  "tiktok-7649309409759284513",
-        "title":  "Vídeo TikTok #3",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@7629299536620487702/video/7649309409759284513",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "TikTok",
-        "channel_url":  "https://www.tiktok.com/@7629299536620487702"
-    },
-    {
-        "id":  "tiktok-7668472541442346272",
-        "title":  "Vídeo TikTok #4",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@7629299536620487702/video/7668472541442346272",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "TikTok",
-        "channel_url":  "https://www.tiktok.com/@7629299536620487702"
-    },
-    {
-        "id":  "tiktok-7662638883196194081",
-        "title":  "Vídeo TikTok #5",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@7629299536620487702/video/7662638883196194081",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "TikTok",
-        "channel_url":  "https://www.tiktok.com/@7629299536620487702"
-    },
-    {
-        "id":  "tiktok-7662613353126268192",
-        "title":  "Vídeo TikTok #6",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@7629299536620487702/video/7662613353126268192",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "TikTok",
-        "channel_url":  "https://www.tiktok.com/@7629299536620487702"
-    },
-    {
-        "id":  "tiktok-7637227045210049824",
-        "title":  "Vídeo TikTok #7",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7637227045210049824",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7615555875926756641",
-        "title":  "Vídeo TikTok #8",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7615555875926756641",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7688371235054423329",
-        "title":  "Vídeo TikTok #9",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7688371235054423329",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7684323958736309537",
-        "title":  "Vídeo TikTok #10",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7684323958736309537",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7678066883014167840",
-        "title":  "Vídeo TikTok #11",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7678066883014167840",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7677581797898669344",
-        "title":  "Vídeo TikTok #12",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7677581797898669344",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7670170325031603489",
-        "title":  "Vídeo TikTok #13",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7670170325031603489",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7669229698005634336",
-        "title":  "Vídeo TikTok #14",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7669229698005634336",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7668098562244234528",
-        "title":  "Vídeo TikTok #15",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7668098562244234528",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7664765437812411681",
-        "title":  "Vídeo TikTok #16",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7664765437812411681",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7663495838961847585",
-        "title":  "Vídeo TikTok #17",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7663495838961847585",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7658770728493321494",
-        "title":  "Vídeo TikTok #18",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7658770728493321494",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7656058311694945558",
-        "title":  "Vídeo TikTok #19",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7656058311694945558",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7647224550236769569",
-        "title":  "Vídeo TikTok #20",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7647224550236769569",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7646902082049494305",
-        "title":  "Vídeo TikTok #21",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7646902082049494305",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7636866926161038625",
-        "title":  "Vídeo TikTok #22",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7636866926161038625",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7634639522445233441",
-        "title":  "Vídeo TikTok #23",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7634639522445233441",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7631314660502850848",
-        "title":  "Vídeo TikTok #24",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7631314660502850848",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7626138146077478176",
-        "title":  "Vídeo TikTok #25",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7626138146077478176",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7624465738492939553",
-        "title":  "Vídeo TikTok #26",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7624465738492939553",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7624290725101915424",
-        "title":  "Vídeo TikTok #27",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7624290725101915424",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7621687380898073888",
-        "title":  "Vídeo TikTok #28",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7621687380898073888",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7619096913605840160",
-        "title":  "Vídeo TikTok #29",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7619096913605840160",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7618159462100028704",
-        "title":  "Vídeo TikTok #30",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7618159462100028704",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7617167430623710497",
-        "title":  "Vídeo TikTok #31",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7617167430623710497",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7617047292725529889",
-        "title":  "Vídeo TikTok #32",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7617047292725529889",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7616074925530516769",
-        "title":  "Vídeo TikTok #33",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7616074925530516769",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7615302166546304288",
-        "title":  "Vídeo TikTok #34",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7615302166546304288",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7611681643320888608",
-        "title":  "Vídeo TikTok #35",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7611681643320888608",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7611634869285719329",
-        "title":  "Vídeo TikTok #36",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7611634869285719329",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7610920337403874593",
-        "title":  "Vídeo TikTok #37",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7610920337403874593",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7607923825686236448",
-        "title":  "Vídeo TikTok #38",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7607923825686236448",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7606092638596500768",
-        "title":  "Vídeo TikTok #39",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7606092638596500768",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7604999013309402401",
-        "title":  "Vídeo TikTok #40",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7604999013309402401",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7603118656079285537",
-        "title":  "Vídeo TikTok #41",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7603118656079285537",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7602749317270555936",
-        "title":  "Vídeo TikTok #42",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7602749317270555936",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7599394414619888929",
-        "title":  "Vídeo TikTok #43",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7599394414619888929",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7597197188984343841",
-        "title":  "Vídeo TikTok #44",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7597197188984343841",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7594880305010330912",
-        "title":  "Vídeo TikTok #45",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7594880305010330912",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7592941547889446177",
-        "title":  "Vídeo TikTok #46",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7592941547889446177",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    },
-    {
-        "id":  "tiktok-7589355567672462624",
-        "title":  "Vídeo TikTok #47",
-        "thumbnail":  "",
-        "url":  "https://www.tiktok.com/@ministeriovozdacura/video/7589355567672462624",
-        "platform":  "tiktok",
-        "category":  "Vídeos",
-        "channel":  "Ministério Voz da Cura",
-        "channel_url":  "https://www.tiktok.com/@ministeriovozdacura"
-    }
+[
+  {
+    "id": "7689231165210856736",
+    "title": "Este sábado e domingo, convidamos você para um tempo especial com o t...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7689231165210856736",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7688371235054423329",
+    "title": "Aprenda a criar um tempo para você - Profeta Henry Otasorowe  #culto#...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7688371235054423329",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7684606166395079968",
+    "title": "Este sábado e domingo, convidamos você para um tempo especial com o t...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7684606166395079968",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7684323958736309537",
+    "title": "Se quiserdes, e obedecerdes, comereis o bem desta terra. Isaías 1:19 📖",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7684323958736309537",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7683864097707904288",
+    "title": "“Alegrai-vos na esperança, sede pacientes na tribulação, perseverai n...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7683864097707904288",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7682009930013986081",
+    "title": "Este sábado e domingo, convidamos você para um tempo especial com o t...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7682009930013986081",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7678793936881585440",
+    "title": "Este sábado e domingo, convidamos você para um tempo especial com o t...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7678793936881585440",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7678066883014167840",
+    "title": "#palavra #cultodedomingo #igreja #jesus",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7678066883014167840",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7677581797898669344",
+    "title": "Momento de oração e manifestação do poder de Deus. #Oração#poder#Jesu...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7677581797898669344",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7674028883703811361",
+    "title": "Neste fim de semana, teremos um momento especial com o tema \"A unção ...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7674028883703811361",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7670170325031603489",
+    "title": "A Visão Tem Tempo Determinado  #visao #tempo #cult #palavradehoje #cu...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7670170325031603489",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7669229698005634336",
+    "title": "A FÉ É O PIN QUE VOCÊ PRECISA PARA RECEBER O QUE DEUS PROMETEU #culto...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7669229698005634336",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7668423045240851744",
+    "title": "Este sábado e domingo, convidamos você para um tempo especial com o t...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7668423045240851744",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7668098562244234528",
+    "title": "A fé é o único meio pelo qual recebemos a benção de Deus",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7668098562244234528",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7664765437812411681",
+    "title": "A importância da unidade ",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7664765437812411681",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7663654668618255648",
+    "title": "Este sábado e domingo, convidamos você para um tempo especial com o t...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7663654668618255648",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7663495838961847585",
+    "title": "Não devemos confiar na força do Homem, mas sim na oração! #palavradeh...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7663495838961847585",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7661048926736289056",
+    "title": "Este sábado e domingo, convidamos você para um tempo especial com o t...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7661048926736289056",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7658770728493321494",
+    "title": "Esqueça O Seu Passado ",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7658770728493321494",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7658571598298909974",
+    "title": "Tudo o que aconteceu no passado tem a capacidade de influenciar o teu...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7658571598298909974",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7658569997563776259",
+    "title": "Este sábado e domingo, convidamos você para um tempo especial com o t...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7658569997563776259",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7656058311694945558",
+    "title": "A vitória vem de Deus!  #vitoria #deus #palavra #vencedor ",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7656058311694945558",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7653404866424950038",
+    "title": "Este sábado e domingo, convidamos você para um tempo especial com o t...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7653404866424950038",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7652762112757976342",
+    "title": "Chega de viver o mesmo ciclo!  #prophet #p ",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7652762112757976342",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7650810164408257825",
+    "title": "Ninguém vai roubar a sua benção- Profeta Henry Otasorowe #benção#cult...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7650810164408257825",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7650530527543594263",
+    "title": "Este sábado e domingo, convidamos você para um tempo especial com o t...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7650530527543594263",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7648223085493030176",
+    "title": "Vídeo 7648223085493030176",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7648223085493030176",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7647224550236769569",
+    "title": "O que acontece quando você recebe profecia. Parte 2 #revelação#profec...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7647224550236769569",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7646902082049494305",
+    "title": "O que acontece depois de alguém recebe uma profecia… #profecia#revela...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7646902082049494305",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7645454350487260448",
+    "title": "Este sábado e domingo, convidamos você para um tempo especial com o t...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7645454350487260448",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7645041135575960864",
+    "title": "O desejo de Deus é que você conheça o caminho do espírito - Profeta H...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7645041135575960864",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7643019173269916961",
+    "title": "Seja Misterioso. #palavradedeus#culto#misterio#",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7643019173269916961",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7642852739239709985",
+    "title": "Este sábado e domingo, convidamos você para um tempo especial com o t...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7642852739239709985",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7642631167564401952",
+    "title": "📖 Juízes 11:1-11 Os planos de Deus para a sua vida sempre vão cumprir...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7642631167564401952",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7642440481657457952",
+    "title": "A luta que enfrenta diariamente, muita das vezes não tem nada ver com...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7642440481657457952",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7640165112220847392",
+    "title": "📖 Habacuque 2:2-3 Se você consegue imaginar algo, também consegue tra...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7640165112220847392",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7639902817473301792",
+    "title": "Este sábado e domingo, convidamos você para um tempo especial com os ...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7639902817473301792",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7637258182707907872",
+    "title": "Está sexta-feira, venha orar. Deus tem algo para você.  #oração#sexta#",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7637258182707907872",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7637227045210049824",
+    "title": "Tudo estava andar bem, até você  contar as coisas para amiga da onça ...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7637227045210049824",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7636921190761745696",
+    "title": "Este sábado e domingo, convidamos você para um tempo especial com o t...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7636921190761745696",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7636866926161038625",
+    "title": "Mas agora o Senhor Deus diz ao seu povo: “Não fiquem lembrando do que...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7636866926161038625",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7634639522445233441",
+    "title": "Você nunca vai conseguir libertar a sua família, sem que você esteja ...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7634639522445233441",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7634516018672569632",
+    "title": "Convidamos você para fazer parte destes três cultos especiais com o t...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7634516018672569632",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7631314660502850848",
+    "title": "As suas estações - Profeta Henry Otasorowe  #palavradeDeus#estaçoes#v...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7631314660502850848",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7631129413643423009",
+    "title": "Convidamos você jovem a fazer parte deste encontro, venha com expecta...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7631129413643423009",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7630941239944269088",
+    "title": "As suas estações- Profeta Henry Otasorowe #palavradeDeus#estaçoes#vid...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7630941239944269088",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7629853675946642720",
+    "title": "O que você escolhe é o que você vive- Profeta Henry Otasorowe  #palav...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7629853675946642720",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7629832819346394400",
+    "title": "Neste domingo, não perca! Pontualmente às 11H, venha receber a sua bê...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7629832819346394400",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7629462891535666465",
+    "title": "A árvore é conhecida pelo seus frutos. Lucas 6:44 📖 #jesusestavoltand...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7629462891535666465",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7629437800399654176",
+    "title": "Venha fazer parte deste encontro, e receber a transformação de Deus p...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7629437800399654176",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7628351958193065249",
+    "title": "É já está quarta-feira, convide a tua família e amigo. Deus ama você!...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7628351958193065249",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7627910675859246369",
+    "title": "Venha fazer parte deste encontro, Quarta-feira, dia 15 de abril, às 1...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7627910675859246369",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7627505246033448224",
+    "title": "Não perca está quarta-feira, dia 15 de Abril, convidamos a todo jovem...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7627505246033448224",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7626477179366313249",
+    "title": "Quando você tem consciência do que Jesus fez por si, o inimigo teme v...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7626477179366313249",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7626138146077478176",
+    "title": "O seu destino não tem como ser enterrado- Profeta Henry Otasorowe #cr...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7626138146077478176",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7624848566271429920",
+    "title": "A solução para os seus problemas está na cruz do carvalho- Profeta He...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7624848566271429920",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7624465738492939553",
+    "title": "#igreja#Jesus#cristão#palavradeDeus#salvação ",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7624465738492939553",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7624290725101915424",
+    "title": "Aquele que está em Cristo nova criatura É. #igreja#Jesus#vida#vida#Deus",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7624290725101915424",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7623154244224355616",
+    "title": "Nesta Páscoa, teremos três momentos especiais na presença de Deus, de...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7623154244224355616",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7621687380898073888",
+    "title": "O poder da vida e da morte, está na sua língua. O que você fala é o q...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7621687380898073888",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7621661140312968481",
+    "title": "Neste domingo, venha participar connosco num tempo especial com o tem...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7621661140312968481",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7620952071994477856",
+    "title": "Ajuda está no caminho — profeta Henry Otasowere  #ajuda #caminho #pod...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7620952071994477856",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7619643718617828640",
+    "title": "Em quem você confia? #palvradedeus #Jesus #luz #culto #salvação ",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7619643718617828640",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7619635157020069153",
+    "title": "Neste domingo, venha estar connosco no culto especial com o tema “A a...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7619635157020069153",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7619096913605840160",
+    "title": "Deus usa o fogo do problema para purificar-nos e colocar valor em nós...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7619096913605840160",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7618159462100028704",
+    "title": "#palavradeDeus#fé#jesusvive#igreja#Deus",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7618159462100028704",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7617167430623710497",
+    "title": "Deus nos separa de nós mesmos para que possamos estar cheios dele!❤️‍...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7617167430623710497",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7617047292725529889",
+    "title": "O processo em Deus. #palavradeDeus#fé#igreja#jesusvive#vida ",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7617047292725529889",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7617033187583216929",
+    "title": "Neste domingo teremos um tempo especial na presença de Deus com o tem...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7617033187583216929",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7616074925530516769",
+    "title": "Quando Deus separa - part 2 #Deus#igreja#luz#fyp#Jesus",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7616074925530516769",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7615555875926756641",
+    "title": "Quando Deus te separa- Profeta Henry Otasorowe  #palavrasdeDeus#Jesus...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7615555875926756641",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7615302166546304288",
+    "title": "Nem todos precisam ouvir os teus problemas. Aprenda a procurar as pes...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7615302166546304288",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7614215203386838305",
+    "title": "Neste domingo, teremos um culto especial com o tema “Quando Deus te s...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7614215203386838305",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7613874156920130849",
+    "title": "Deus é maior, Deus só quer que você confie nele. #Deus#palavra#Jesus#...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7613874156920130849",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7613516425776401696",
+    "title": "#palavra#jesusvive#salvação#fe #PalavradeDeus ",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7613516425776401696",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7613413018499697953",
+    "title": "📖 2 Reis 4:1-7 Uma das coisas que humilha o homem e o coloca para bai...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7613413018499697953",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7611969734082399521",
+    "title": "Você verá o fruto das suas palavras.  As suas palavras vão funcionar ...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7611969734082399521",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7611681643320888608",
+    "title": "Você é a cópia de Deus na Terra, para manifestar a Glória De Deus.  #...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7611681643320888608",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7611634869285719329",
+    "title": "Você não vai ser derrotado!  #jesus#palvradedeus#culto#fé#God ",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7611634869285719329",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7611085665111002400",
+    "title": "📖 Salmos 119:133 Você é abençoado pelos seus pés, pois eles o levam a...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7611085665111002400",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7610920337403874593",
+    "title": "📖 Salmos 119:113 #jesus#PalavradeDeus#fé#poder#igreja ",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7610920337403874593",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7610896289676397857",
+    "title": "Você é convidado para um culto transformador! 📖Tema: Não morrerei end...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7610896289676397857",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7607963195717864736",
+    "title": "Neste domingo, convidamos você para estar connosco num tempo especial...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7607963195717864736",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7607923825686236448",
+    "title": "#Deus#oração#fé#PalavradeDeus#cristo ",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7607923825686236448",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7607781459629296929",
+    "title": "Deus ama você.  #Deus#igreja#jesus#gloria#PalavradeDeus ",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7607781459629296929",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7607009733471423776",
+    "title": "Hoje celebramos a sua vida com gratidão e honra. Celebramos não apena...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7607009733471423776",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7606092638596500768",
+    "title": "Os elementos de criação irão virar ao teu favor.  #god#jesus#palavrad...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7606092638596500768",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7604999013309402401",
+    "title": "Todos os elementos da criação, vão manifestar a seu favor. #profecia#...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7604999013309402401",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7604124484047490337",
+    "title": "Você vai viver a sua vida. #jesus#palvradedeus#salvador#vida#cristo ",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7604124484047490337",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7603880292868246816",
+    "title": "É o fim do choro na sua vida. #PalavradeDeus#Jesus#salvador#gloria#fé ",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7603880292868246816",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7603864254466329888",
+    "title": "Este domingo será um tempo especial de encontro com Deus, sob o tema ...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7603864254466329888",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7603118656079285537",
+    "title": "#fe#PalavradeDeus#gloria#",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7603118656079285537",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7602749317270555936",
+    "title": "Semana abençoado para você! #fe#PalavradeDeus#igreja#jesus#jesus ",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7602749317270555936",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7600838268640447777",
+    "title": "Quando você nasce no profético, passa a fazer e a dizer coisas sem se...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7600838268640447777",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7600533634591853856",
+    "title": "Parte 2 #igreja#poder#gloria#profecia#jesus ",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7600533634591853856",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7599394414619888929",
+    "title": "Esse é o seu tempo- Profeta Henry Otasorowe.  #God#Poder#fe#cura#louvor ",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7599394414619888929",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7597874724353428768",
+    "title": "Não perca esta oportunidade, venha e faça parte deste mover profético...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7597874724353428768",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7597542072538729761",
+    "title": "Venha fazer parte deste movimento! Traga sua família e amigos para es...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7597542072538729761",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7597197188984343841",
+    "title": "“Ele fez tudo belo a seu tempo. Também pôs a eternidade no coração do...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7597197188984343841",
+    "platform": "tiktok"
+  },
+  {
+    "id": "7596808564593675553",
+    "title": "Quando a graça de Deus vem sobre si, a desgraça vai embora!  #culto #...",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7596808564593675553",
+    "platform": "tiktok"
+  },
+  {
+    "id": "tiktok-7660389179024608545",
+    "title": "Vídeo TikTok #1",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@7629299536620487702/video/7660389179024608545",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "TikTok",
+    "channel_url": "https://www.tiktok.com/@7629299536620487702"
+  },
+  {
+    "id": "tiktok-7662644518264622369",
+    "title": "Vídeo TikTok #2",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@7629299536620487702/video/7662644518264622369",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "TikTok",
+    "channel_url": "https://www.tiktok.com/@7629299536620487702"
+  },
+  {
+    "id": "tiktok-7649309409759284513",
+    "title": "Vídeo TikTok #3",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@7629299536620487702/video/7649309409759284513",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "TikTok",
+    "channel_url": "https://www.tiktok.com/@7629299536620487702"
+  },
+  {
+    "id": "tiktok-7668472541442346272",
+    "title": "Vídeo TikTok #4",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@7629299536620487702/video/7668472541442346272",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "TikTok",
+    "channel_url": "https://www.tiktok.com/@7629299536620487702"
+  },
+  {
+    "id": "tiktok-7662638883196194081",
+    "title": "Vídeo TikTok #5",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@7629299536620487702/video/7662638883196194081",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "TikTok",
+    "channel_url": "https://www.tiktok.com/@7629299536620487702"
+  },
+  {
+    "id": "tiktok-7662613353126268192",
+    "title": "Vídeo TikTok #6",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@7629299536620487702/video/7662613353126268192",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "TikTok",
+    "channel_url": "https://www.tiktok.com/@7629299536620487702"
+  },
+  {
+    "id": "tiktok-7637227045210049824",
+    "title": "Vídeo TikTok #7",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7637227045210049824",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7615555875926756641",
+    "title": "Vídeo TikTok #8",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7615555875926756641",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7688371235054423329",
+    "title": "Vídeo TikTok #9",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7688371235054423329",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7684323958736309537",
+    "title": "Vídeo TikTok #10",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7684323958736309537",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7678066883014167840",
+    "title": "Vídeo TikTok #11",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7678066883014167840",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7677581797898669344",
+    "title": "Vídeo TikTok #12",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7677581797898669344",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7670170325031603489",
+    "title": "Vídeo TikTok #13",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7670170325031603489",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7669229698005634336",
+    "title": "Vídeo TikTok #14",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7669229698005634336",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7668098562244234528",
+    "title": "Vídeo TikTok #15",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7668098562244234528",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7664765437812411681",
+    "title": "Vídeo TikTok #16",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7664765437812411681",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7663495838961847585",
+    "title": "Vídeo TikTok #17",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7663495838961847585",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7658770728493321494",
+    "title": "Vídeo TikTok #18",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7658770728493321494",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7656058311694945558",
+    "title": "Vídeo TikTok #19",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7656058311694945558",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7647224550236769569",
+    "title": "Vídeo TikTok #20",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7647224550236769569",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7646902082049494305",
+    "title": "Vídeo TikTok #21",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7646902082049494305",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7636866926161038625",
+    "title": "Vídeo TikTok #22",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7636866926161038625",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7634639522445233441",
+    "title": "Vídeo TikTok #23",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7634639522445233441",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7631314660502850848",
+    "title": "Vídeo TikTok #24",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7631314660502850848",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7626138146077478176",
+    "title": "Vídeo TikTok #25",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7626138146077478176",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7624465738492939553",
+    "title": "Vídeo TikTok #26",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7624465738492939553",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7624290725101915424",
+    "title": "Vídeo TikTok #27",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7624290725101915424",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7621687380898073888",
+    "title": "Vídeo TikTok #28",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7621687380898073888",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7619096913605840160",
+    "title": "Vídeo TikTok #29",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7619096913605840160",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7618159462100028704",
+    "title": "Vídeo TikTok #30",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7618159462100028704",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7617167430623710497",
+    "title": "Vídeo TikTok #31",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7617167430623710497",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7617047292725529889",
+    "title": "Vídeo TikTok #32",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7617047292725529889",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7616074925530516769",
+    "title": "Vídeo TikTok #33",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7616074925530516769",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7615302166546304288",
+    "title": "Vídeo TikTok #34",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7615302166546304288",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7611681643320888608",
+    "title": "Vídeo TikTok #35",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7611681643320888608",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7611634869285719329",
+    "title": "Vídeo TikTok #36",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7611634869285719329",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7610920337403874593",
+    "title": "Vídeo TikTok #37",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7610920337403874593",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7607923825686236448",
+    "title": "Vídeo TikTok #38",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7607923825686236448",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7606092638596500768",
+    "title": "Vídeo TikTok #39",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7606092638596500768",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7604999013309402401",
+    "title": "Vídeo TikTok #40",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7604999013309402401",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7603118656079285537",
+    "title": "Vídeo TikTok #41",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7603118656079285537",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7602749317270555936",
+    "title": "Vídeo TikTok #42",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7602749317270555936",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7599394414619888929",
+    "title": "Vídeo TikTok #43",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7599394414619888929",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7597197188984343841",
+    "title": "Vídeo TikTok #44",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7597197188984343841",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7594880305010330912",
+    "title": "Vídeo TikTok #45",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7594880305010330912",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7592941547889446177",
+    "title": "Vídeo TikTok #46",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7592941547889446177",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  },
+  {
+    "id": "tiktok-7589355567672462624",
+    "title": "Vídeo TikTok #47",
+    "thumbnail": "",
+    "url": "https://www.tiktok.com/@ministeriovozdacura/video/7589355567672462624",
+    "platform": "tiktok",
+    "category": "Vídeos",
+    "channel": "Ministério Voz da Cura",
+    "channel_url": "https://www.tiktok.com/@ministeriovozdacura"
+  }
 ]
