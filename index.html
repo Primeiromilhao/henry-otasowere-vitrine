@@ -1,21 +1,25 @@
 <!doctype html>
-<html lang="pt-PT">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#07121f">
-<title>Vitrine — Henry Otasowere</title><link rel="stylesheet" href="style.css">
-</head>
+<html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,interactive-widget=resizes-content"><meta name="theme-color" content="#06131d"><meta name="description" content="Vitrine audiovisual do Profeta Henry Otasowere - Voz da Cura Network."><link rel="manifest" href="manifest.webmanifest"><title>Voz da Cura - Profeta Henry Otasowere</title><link rel="stylesheet" href="style.css"></head>
 <body>
-<header class="hero"><div class="hero-copy"><span class="eyebrow">BIBLIOTECA PROFÉTICA</span><h1>Henry Otasowere</h1><p class="channel">Voz da Cura Network</p><p class="tagline">Cada assunto reúne o conteúdo correspondente das quatro redes.</p><button id="heroPlay" class="primary">▶ Explorar segmentos</button></div><div class="hero-photo" aria-label="Foto do Profeta Henry Otasowere"></div></header>
-<nav class="platforms" aria-label="Fontes"><button class="platform active" data-platform="todos">Todos</button><button class="platform" data-platform="youtube">▶ YouTube <b id="count-youtube">—</b></button><button class="platform" data-platform="facebook">f Facebook</button><button class="platform" data-platform="instagram">◎ Instagram</button><button class="platform" data-platform="tiktok">♪ TikTok</button><button id="refreshCatalog" class="refresh" type="button">↻ Atualizar</button></nav>
+<header class="hero" aria-label="Voz da Cura Network - Profeta Henry Otasowere"><div class="hero-photo"></div></header>
+<nav class="platforms" aria-label="Plataformas">
+<button class="platform active" data-platform="youtube"><span>&#9654;</span><strong>YouTube</strong><b id="count-youtube">-</b></button>
+<button class="platform" data-platform="facebook"><span>f</span><strong>Facebook</strong><b id="count-facebook">-</b></button>
+<button class="platform" data-platform="tiktok"><span>&#9834;</span><strong>TikTok</strong><b id="count-tiktok">-</b></button>
+<button class="platform" data-platform="instagram"><span>&#9673;</span><strong>Instagram</strong><b id="count-instagram">-</b></button>
+</nav>
 <main>
-<section class="toolbar"><input id="search" type="search" placeholder="Pesquisar assunto, vídeo, canal ou livro..." autocomplete="off"><select id="sort"><option value="recent">Mais recentes</option><option value="oldest">Mais antigos</option><option value="title">Título</option></select></section>
-<section class="content-head"><div><span class="eyebrow">ORGANIZAÇÃO</span><h2 id="topicTitle">Todos os conteúdos</h2></div><div class="status-wrap"><span id="status">A preparar catálogo…</span><span id="refreshStatus" class="refresh-status" aria-live="polite"></span></div></section>
-<section id="segmentBoard" class="segment-board"></section>
-<section id="categories" class="chips"></section>
-<section id="topicPanel" class="topic-panel" hidden><div><span class="eyebrow">SEGMENTO SELECIONADO</span><h3 id="topicSummary">Conteúdo relacionado</h3><p id="topicDescription">O mesmo segmento é usado para relacionar as plataformas.</p></div><button id="clearTopic" class="secondary">Limpar segmento</button></section>
-<section id="groups" class="topic-groups" aria-live="polite"></section>
+<section class="ad-slot ad-top" aria-label="Livros relacionados"><div class="books-carousel"></div></section>
+<section class="toolbar" id="searchArea"><input id="search" type="search" placeholder="Pesquisar videos..." autocomplete="off" aria-label="Pesquisar videos"><select id="sort" aria-label="Ordenar"><option value="recent">Mais recentes</option><option value="title">Titulo</option></select></section>
+<section class="content-head"><div><span id="platformEyebrow" class="eyebrow">YOUTUBE</span><h2 id="platformTitle">Videos de Henry Otasowere</h2></div><span id="status">A preparar catalogo...</span></section>
+<section id="segments" class="chips" aria-label="Segmentos"></section>
+<section id="categories" class="chips" aria-label="Categorias"></section>
+<section id="grid" class="grid" aria-live="polite"></section>
+<section class="ad-slot ad-bottom" aria-label="Livros relacionados"><div class="books-carousel"></div></section>
 </main>
-<div id="resumeModal" class="modal" hidden><div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="resumeTitle"><span class="eyebrow">RETOMAR VÍDEO</span><h2 id="resumeTitle">Continuar de onde parou?</h2><p id="resumeText"></p><div class="modal-actions"><button id="resumeContinue" class="primary">▶ Continuar</button><button id="resumeRestart" class="secondary">↻ Começar novamente</button></div></div></div>
-<footer>Voz da Cura Network · Vitrine por segmentos · YouTube · Facebook · Instagram · TikTok · Biblioteca Profética</footer>
-<script src="app.js"></script><script src="books-integration.js?v=20261005-1"></script><script src="books-integration.js?v=20261005-1"></script>
+<footer>Voz da Cura Network - Vitrine audiovisual - Todas as plataformas em uma so aplicacao</footer>
+<nav class="bottom-nav" aria-label="Navegacao principal"><button class="bottom-item active" data-bottom="home"><span>&#8962;</span><b>Inicio</b></button><button class="bottom-item" data-bottom="search"><span>&#8992;</span><b>Pesquisar</b></button><button class="bottom-item" data-bottom="favorites"><span>&#9825;</span><b>Favoritos</b></button><button class="bottom-item" data-bottom="more"><span>&#9776;</span><b>Mais</b></button></nav>
+<div id="welcomeModal" class="welcome-modal" hidden><div class="welcome-card" role="dialog" aria-modal="true" aria-labelledby="welcomeTitle"><button id="closeWelcome" class="welcome-close" aria-label="Fechar">&#215;</button><div class="welcome-kicker">VOZ DA CURA NETWORK</div><h2 id="welcomeTitle">Uma palavra para voce</h2><p id="welcomePhrase"></p><div class="welcome-author">- Profeta Henry Otasowere</div></div></div>
+<div id="playerModal" class="modal" hidden><div class="modal-card" role="dialog" aria-modal="true" aria-label="Video"><button id="closePlayer" class="close" aria-label="Fechar">&times;</button><div id="playerWrap" class="player-wrap"></div></div></div>
+<script src="app.js"></script><script src="self-heal.js?v=20260927-1"></script><script src="welcome.js"></script><script src="books-carousel.js?v=20261005-1"></script>
 </body></html>
